@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a img{
+    width: 26px;
+    color: #fff; 
+    background-color: #28a745; 
+    border-radius: 50%; 
+}
+
+.hero{
+    text-align: none;
+    color: white;
+    background-image: url('images/foodiesfeed.com_slice-of-lime-under-water.jpg');
+    background-size: cover;background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background: #e67e22;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    
+}
+
+.product-list,
+.product-list-one {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    margin-bottom: 20px;
+   
+}
+
+
+
+
+
+.product {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.product:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+}
+.Why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #2ecc71;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    color: #2ecc71;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+

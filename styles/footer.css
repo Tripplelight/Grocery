@@ -1,0 +1,89 @@
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-box {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-box h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-box ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-box ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer-box ul li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .social-icons img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  /* Only apply margin when the sidebar exists */
+.has-sidebar .footer {
+  width: calc(100% - 250px);
+  margin-left: 250px;
+}

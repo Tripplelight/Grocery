@@ -1,0 +1,144 @@
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li img{
+  width: 26px;
+  height: 26px;
+  color: #fff; 
+  border-radius: 50%; 
+}
+
+
+.contact-main{
+    background-color: rgb(226, 224, 224);
+    padding-top: -20px;
+    padding-left: -10px;
+    padding-right: -10px;
+  }
+  
+  .contact-h3{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 30px;
+  }
+  
+  .contact-main-div{
+    display: grid;
+    grid-template-columns: 700px 300px;
+    column-gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+  
+  
+  }
+  
+  .contact-form{
+  
+  }
+  
+  .contact-via{
+    margin-top: 100px;
+  }
+  
+  label{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .submit{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .submit:hover{
+    background-color: blue;
+    color: yellow;
+    font-size: 20px;
+  
+  }
+  
+  #tetra{
+    height: 130px;
+  
+  }
+  
+  input::placeholder{
+  padding-left: 10px;
+  font-size: 16px;
+    
+  }
+  
+  .main-div{
+  display: grid;
+  grid-template-columns: 50px 200px;
+  margin-bottom: 60px;
+  column-gap: 20px;
+  }
+  
+  .pp-image{
+  width: 50px;
+  border-radius: 50%;
+  }
+  
+  .title-h3{
+    margin-top: 0;
+  margin-bottom: 0;
+  }
+  
+  .title-h5{
+    margin-top: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  footer{
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    margin-right: -10px;
+    margin-bottom: -20px;
+  }
+  

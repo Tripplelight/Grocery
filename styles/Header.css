@@ -1,0 +1,109 @@
+       .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;    
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: linear-gradient(to right, #ffffff, #a8e063, #56ab2f);
+            border-bottom: #ccc;
+            text-align: center;      
+        }
+
+        .hamburger-menu{
+            height: 24px;
+            margin-left: 24px;
+            margin-right: 20px;
+          }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo span{
+            color: rgb(44, 52, 52);
+        }
+
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+
+        .middle-section{
+            flex: 1;
+            padding-left: 70px;
+            padding-right: 35px;
+            max-width: 500px;
+            display: flex;
+            align-items: center;
+          }
+
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+        nav ul li{
+            margin: 0 5px;
+        }
+
+        nav ul li a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+         nav ul li a img{
+            width: 26px;
+            color: #fff; 
+            background-color: #28a745; 
+            border-radius: 50%; 
+          }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .contact i {
+            margin-right: 5px;
+        }
+        .cart {
+            position: relative;
+            margin-right: 10px;
+        }
+        .cart span {
+            position: absolute;
+            top: -14px;
+            right: -14px;
+            background: red;
+            color: white;
+            border-radius: 50%;
+            padding: 3px 6px;
+            font-size: 10px;
+        }
+
+        @media (max-width: 900px) {
+            .nav-links {
+                flex-direction: column; /* Stack items vertically */
+                text-align: center;
+                width: 100%;
+            }
+        
+            .header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            
+        }
