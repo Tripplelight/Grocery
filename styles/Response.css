@@ -1,21 +1,13 @@
+@media(max-width: 900px) {
+  body{
+    transform: none;
+    transform-origin:top left;
+    width: 100%;
+    height: auto;
+    position: absolute;
+  }
+  footer{
+    font-size: 1rem;
+  }
+}
 
-  @media(max-width: 900px){
-      .hero{
-        text-align: center;
-      
-      }  
-      .hero h1{
-        font-size: 2em;
-      }
-     
-    .product-list,
-    .product-list-one {
-    flex-direction: column;
-    align-items: center;
-    
-    }
-    
-    .product {
-        width: 400px;
-    }
-    }
