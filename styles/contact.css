@@ -12,11 +12,11 @@ header {
 
 nav ul {
   list-style: none;
-  padding: 0;
   text-align: center;
 }
 nav ul li {
-  display: inline;
+  display: flex;
+  flex-direction:row;
   margin: 0 15px;
 }
 nav ul li a {
@@ -26,16 +26,14 @@ nav ul li a {
 }
 
 nav ul li img{
-  width: 26px;
-  height: 26px;
-  color: #fff; 
+  width: 26px; 
   border-radius: 50%; 
 }
 
 
 .contact-main{
     background-color: rgb(226, 224, 224);
-    padding-top: -20px;
+    padding-top: 100px;
     padding-left: -10px;
     padding-right: -10px;
   }
@@ -54,10 +52,6 @@ nav ul li img{
     padding-bottom: 80px;
     padding-left: 30px;
   
-  
-  }
-  
-  .contact-form{
   
   }
   
@@ -128,17 +122,4 @@ nav ul li img{
     margin-top: 0;
   }
   
-  
-  
-  
-  
-  
-  
-  footer{
-    background-color: black;
-    color: white;
-    margin-left: -8px;
-    margin-right: -10px;
-    margin-bottom: -20px;
-  }
   

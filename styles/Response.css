@@ -9,5 +9,16 @@
   footer{
     font-size: 1rem;
   }
+  header{
+    height: 40px;
+  }
+  nav{
+    padding: 20px;
+  }
+  nav ul li{
+    margin: 10px;
+    padding-top: 30px;
+
+}
 }
 
