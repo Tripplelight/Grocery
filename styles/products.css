@@ -24,12 +24,16 @@ body {
     @media (max-width: 900px){
       .products-container{
         grid-template-columns: 1fr 1fr;
-
+        
       }
       body,
       .main-part,
       .promo-section{
         padding: 0px;
+      }
+
+      .btn{
+        padding: 5px 8px;
       }
 
 

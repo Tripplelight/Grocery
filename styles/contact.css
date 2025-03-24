@@ -1,74 +1,80 @@
 header {
   background-color: #4CAF50;
-  color: white;
-  padding: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1vw 3vw; 
   position: fixed;
-  left: 0;
-  right: 0;
+  width: 100%;
   top: 0;
   z-index: 1000;
 }
 
+header h1 {
+  font-size: 2vw; 
+  margin: 0;
+}
+
 nav ul {
   list-style: none;
-  text-align: center;
-}
-nav ul li {
   display: flex;
-  flex-direction:row;
-  margin: 0 15px;
+  padding: 0;
+  margin-right: 60px;
 }
+
+nav ul li {
+  padding: 1vw
+}
+
 nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 1rem; 
 }
 
-nav ul li img{
-  width: 26px; 
-  border-radius: 50%; 
+nav ul li img {
+  width: 5vw;
+  border-radius: 50%;
+  max-width: 26px;
 }
-
 
 .contact-main{
     background-color: rgb(226, 224, 224);
     padding-top: 100px;
-    padding-left: -10px;
-    padding-right: -10px;
   }
   
-  .contact-h3{
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 30px;
+  .header-div{
+    background-color: lightblue;
+    padding: 20px 5px;
+
   }
-  
+
   .contact-main-div{
     display: grid;
-    grid-template-columns: 700px 300px;
-    column-gap: 40px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 30px;
-  
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2vw;
+    padding: 2vw;
   
   }
   
+  
+
   .contact-via{
-    margin-top: 100px;
+    margin-top: 4vw;
+    padding: 50px;
   }
   
   label{
     display: block;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    font-size: 20px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1.5em;
     font-weight: 600;
   }
   
   input{
-    width: 600px;
+    width: 45vw;
     height: 40px;
     border: none;
     border-radius: 8px;
@@ -76,9 +82,9 @@ nav ul li img{
   
   .submit{
     margin-top: 10px;
-    width: 200px;
+    width: 20vw;
     border-radius: 8px;
-    background-color: red;
+    background-color: purple;
     font-size: 20px;
     color: white;
   }
@@ -87,25 +93,25 @@ nav ul li img{
     background-color: blue;
     color: yellow;
     font-size: 20px;
-  
+    cursor: pointer;  
   }
   
   #tetra{
-    height: 130px;
+    height: 10vw;
   
   }
   
   input::placeholder{
   padding-left: 10px;
   font-size: 16px;
-    
+  
   }
   
   .main-div{
   display: grid;
-  grid-template-columns: 50px 200px;
-  margin-bottom: 60px;
-  column-gap: 20px;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 2vw;
+  column-gap: 1vw;
   }
   
   .pp-image{
@@ -122,4 +128,44 @@ nav ul li img{
     margin-top: 0;
   }
   
+
+  
+ @media(max-width: 600px){
+    header{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      margin-top: 0;
+    }
+    
+    nav ul li {
+      padding: 2vw
+    }
+
+    header h1{
+      font-size: 1.5em;
+    }
+     .header-div{
+      margin-top: -15px;
+     }
+
+    .contact-main-div{
+      display: flex;
+      flex-direction: column;
+    }
+    input{
+      width:85vw;
+      height: 30px;
+    }
+    label{
+      font-size: 1.2em;
+      font-weight: 600;
+      text-align: center;
+    }
+    .contact-form{
+      text-align: center;
+    }
+
+  }
   
